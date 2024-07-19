@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e1feef;
+  max-height: 100vh;
+}
+
+main {
+  margin: 10rem auto;
+  width: 60%;
+  padding: 2rem;
+  border: 2px solid pink;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 2px solid blue;
+}
+
+#countDown-board {
+  width: 90%;
+  height: 250px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #f4fdf9;
+}
+
+#countDown-board h1 {
+  font-size: 4rem;
+  color: #333;
+  margin: 4rem 0;
+}
+
+#countDown-button {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+}
+
+#countDown-button button {
+  padding: 0.7rem 1.9rem;
+  font-size: 1.8rem;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+#plusButton {
+  background-color: #02fc30;
+}
+
+#countDown-button #resetButton {
+  background-color: #fcf402;
+  font-size: 1.1rem;
+}
+
+#countDown-button #minusButton {
+  background-color: #fc0202;
+}
